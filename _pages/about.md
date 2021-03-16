@@ -7,14 +7,20 @@ description: Undergraduate student with majors in <b>finance</b>, <b>applied mat
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: 
 
 news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br />
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<h5>About</h5>
+Hi! I'm a current undergraduate in the [Cox School of Business](https://www.smu.edu/cox) and the [Dedman College of Humanities & Sciences](https://www.smu.edu/dedman) at the [Southern Methodist University](https://www.smu.edu) in Dallas, TX with interests in data science, finance, and consulting, among others.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<h5>At school</h5>
+At SMU, I serve as the Chief Operating Officer for the [Boulevard Investment Group](http://blvdinvestmentgroup.org), President of SMU's Statistics Club, and the Financial Officer at the SMU AI Club. I've also conducted several research projects that can be found [here]().
+
+<h5>Outside school</h5>
+Outside SMU, I've held several internships in management consulting, quantitative research, software engineering, and corporate finance. If you'd like to learn more about my professional experience, see my [resume]() or full [CV](). I also enjoy playing poker and spikeball, trying new types of coffee, and finding [competitions]() to participate in.
+
