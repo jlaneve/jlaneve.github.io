@@ -1,0 +1,116 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Julian LaNeve">
+  <main class="flex flex-row align-center">
+    <div class="flex-1 summary">
+      <p>Welcome!</p>
+
+      <p>
+        I'm Julian LaNeve, the CTO of <a
+          href="https://www.astronomer.io"
+          target="_blank">Astronomer</a
+        >, a Series C data infrastructure startup. We're building the future of
+        data engineering on top of <a
+          href="https://github.com/apache/airflow"
+          target="_blank">Apache Airflow</a
+        >.
+      </p>
+
+      <p>
+        I live in NYC after graduating undergrad in Dec 2021 from <a
+          href="https://smu.edu"
+          target="_blank">SMU</a
+        > in Dallas where I triple-majored in Mathematics, Statistics, and Finance.
+      </p>
+
+      <p>
+        You can reach me at <span class="text-nowrap whitespace-nowrap"
+          >[first name]@astronomer.io</span
+        >.
+      </p>
+
+      <div class="flex flex-row align-center pt-2">
+        <a href="https://twitter.com/julianlaneve" target="_blank">
+          <a href="https://www.linkedin.com/in/julianlaneve/" target="_blank">
+            <img
+              src="/public/linkedin.svg"
+              alt="LinkedIn"
+              style="width: 2rem; margin-right: 1rem;"
+            />
+          </a>
+          <a href="https://github.com/jlaneve" target="_blank">
+            <img
+              src="/public/github.svg"
+              alt="GitHub"
+              style="width: 2rem; margin-right: 1rem;"
+            />
+          </a>
+          <img
+            src="/public/twitter.svg"
+            alt="Twitter"
+            style="width: 2rem; margin-right: 1rem;"
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="flex-1 w-full propic">
+      <img
+        src="/public/propic.png"
+        alt="Julian LaNeve"
+        style="border-radius: 50%; margin: 0 auto; display: block;"
+      />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    max-width: 60%;
+    padding: 1rem;
+    font-size: 20px;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .propic img {
+    width: 50%;
+  }
+
+  @media (max-width: 1200px) {
+    main {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      flex-direction: column-reverse;
+      max-width: 70%;
+    }
+
+    .propic {
+      margin-bottom: 4rem;
+    }
+
+    .propic img {
+      max-width: 200px;
+    }
+  }
+
+  a {
+    color: #246eb9;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #246eb9;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+</style>
